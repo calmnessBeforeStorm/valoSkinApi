@@ -93,4 +93,5 @@ if __name__ == '__main__':
         print("Первоначальная загрузка данных...")
         update_data()
     
-    app.run(debug=True)
+    #app.run(debug=True) #для теста и т.п.
+    app.run(host='0.0.0.0', port=80) #для прода
